@@ -172,6 +172,7 @@ wbt.clip_raster_to_polygon(
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
 # Convert clipped basins to vector layer.
+
 wbt.raster_to_vector_polygons(
     i = out + r"\_10_strahler_basins_sabourin.tif", 
     output = out + r"\_12_VECTOR_strahler_basins_sabourin.shp", 
@@ -179,6 +180,7 @@ wbt.raster_to_vector_polygons(
 )
 
 # Convert strahler streams to vector layer.
+
 wbt.raster_streams_to_vector(
     streams = out + r"\_05_strahler_streams_sabourin.tif", 
     d8_pntr = out + r"\_02_flow_direction_sabourin.tif", 

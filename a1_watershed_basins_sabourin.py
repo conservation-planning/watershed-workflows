@@ -7,6 +7,21 @@
 # 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
 
+'''
+*** DIRECTORY PATHS SHOULD BE MODIFIED BEFORE RUNNING SCRIPT ***
+
+    The paths in this script are system dependent. 
+    
+    If you cloned the repository and are working on a windows os, 
+    you should be able to execute the script by modifying the root 
+    directorty (work variable).
+
+    If your cloned the repository and are working on a Mac os, you
+    will need to modify all subdirectorys by  
+        1) removing raw string-literal operator "r"
+        2) replacing r"path\to\dir" with "/"
+'''
+
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 #  Import modules.
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  
